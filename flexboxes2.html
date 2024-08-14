@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>flexboxes</title>
+    <style>
+        .container{
+            border-radius:5px;
+            flex-direction: column-reverse;
+            display: flex;
+            justify-content: start;
+            align-items: end;
+            flex-wrap: wrap;
+            text-align: center;
+            height: auto;
+            width: 500px;
+            border: solid 5px #001a00;
+            background-color:#F19ED2;
+            padding:10px;
+         }
+        .image{
+            height:200px;
+            width:200px ;
+            border-radius:5px;
+            margin-top:10px;
+
+         }
+        .second-container{
+           
+            height:350px;
+            width:250px;
+            margin-right: 25px;
+            margin-top:50px;
+            background-color: #27a0a4;
+            border-radius: 5px;
+            box-shadow: 5px 5px 5px 5px black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+         <div class="second-container">
+            <img src="./images/unicorn.png" class="image"/>
+            <h1>Unicorn</h1>
+            <a href="unicorn.html">Explore Me</a>
+       </div>
+       
+        <div class="second-container">
+            <img src="images/Tiger.png" class="image">
+            <h1>Tiger</h1>
+            <a href="Tiger.html">Explore Me</a>
+       </div>
+       
+    
+        <div class="second-container">
+            <img src="./images/elephant.png" class="image">
+            <h1>Elephant</h1>
+            <a href="Elephant.html">Explore Me</a>
+       </div>
+
+       <div class="second-container">
+        <img src="./images/bluetiger.png" class="image">
+        <h1>Blue Tiger</h1>
+        <a href="bluetiger.html">Explore Me</a>
+   </div>
+ </div>
+</body>
+</html>
